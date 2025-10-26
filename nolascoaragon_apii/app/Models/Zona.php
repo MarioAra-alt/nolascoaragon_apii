@@ -8,12 +8,12 @@ class Zona extends Model
 {
     //
 
-    protected $connection = 'mysql';
+    protected $connetion = 'mysql';
     protected $table = 'zona';
-    protected $primarykey = 'id_zona';
+    protected $primaryKey = 'id_zona';
     public $incrementing = true;
-    public $timetamps = false;
+    public $timestamps = false;
 
-    
+
 
 }
